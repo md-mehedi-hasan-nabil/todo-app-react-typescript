@@ -6,7 +6,6 @@ import {
   ResizablePanelGroup,
 } from "@/components/ui/resizable";
 import SidebarMenu from "@/components/SidebarMenu/SidebarMenu";
-import TodoTabs from "@/components/TodoTabs/TodoTabs";
 
 export default function Layout() {
   return (
@@ -17,15 +16,14 @@ export default function Layout() {
           direction="horizontal"
           className="min-h-[80vh] border"
         >
-          <ResizablePanel defaultSize={25}>
+          <ResizablePanel defaultSize={20}>
             <div className="p-6">
               <SidebarMenu />
             </div>
           </ResizablePanel>
           <ResizableHandle withHandle />
-          <ResizablePanel defaultSize={75}>
+          <ResizablePanel defaultSize={80}>
             <div className="p-6">
-              <TodoTabs />
               <Outlet />
             </div>
           </ResizablePanel>

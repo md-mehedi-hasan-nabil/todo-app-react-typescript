@@ -1,9 +1,15 @@
+import TodoTabs from "@/components/TodoTabs/TodoTabs";
+
 
 
 export default function Home() {
   return (
-    <div>
+    <>
+      <div 
+      >
 
-      Home</div>
+        <TodoTabs />
+      </div>
+    </>
   )
 }
