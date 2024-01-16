@@ -53,7 +53,7 @@ export default function AddTodo() {
                         <Label htmlFor="title" className="text-right">
                             Title
                         </Label>
-                        <Input id="title" className="col-span-3" />
+                        <Input id="title" placeholder="Title" className="col-span-3" />
                     </div>
                     <div className="grid grid-cols-4 items-center gap-4">
                         <Label htmlFor="message" className="text-right">
